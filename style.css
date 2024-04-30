@@ -1,31 +1,133 @@
-body{
+body {
     font-family: "Raleway";
     text-decoration: none;
+    margin: 0 auto;
 }
-.a-button{
+
+.a-button {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    display: block;
     border-radius: 5px;
-padding: 15px 80px;
-width: 364px;
-height: 66px;
-background: #b2ffa6;
+    padding: 15px 80px;
+    width: 205px;
+    height: 26px;
+    background: #b2ffa6;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    color: #000;
+    text-decoration: none;
 }
-.hero-img{
-    border: 1px solid #000;
-width: 800px;
-height: 800px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+.hero-img {
+    width: 800px;
+    height: 800px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
-.hero-title{
+
+.hero-title {
     font-weight: 700;
     font-size: 64px;
     text-transform: capitalize;
     color: #000;
     width: 500px;
     height: 20px;
+    margin-bottom: 165px;
+    margin-top: 20px;
 }
-.title{
+
+.hero-span {
+    font-weight: 700;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.title {
     font-weight: 400;
-font-size: 64px;
-text-transform: capitalize;
-color: #000;
+    font-size: 64px;
+    text-transform: capitalize;
+    color: #000;
+}
+.text-about-us{
+    max-width: 800px;
+}
+.about-us{
+    display: flex;
+}
+
+.footer {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 40px;
+}
+
+.header-list:hover {
+    color: #b2ffa6;
+}
+
+header-item {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header {
+    color: #ffffff;
+    display: flex;
+    background-color: #000;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+}
+.img-section3{
+    margin-left: 150px;
+    width: 930px;
+
+}
+.img-section-3{
+    width: 490px;
+    margin-bottom: 60px;
+    
+
+}
+.wrapper{
+    display: flex;
+align-items: center
+}
+
+.title-section2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-right: 67%;
+    width: 322px;
+}
+.text{
+    margin-bottom: 60px;
+}
+.text-1{
+    margin-bottom: 15px;
+}
+.text-A{
+    max-width: 600px;
+    padding-top: 70px;
 }
