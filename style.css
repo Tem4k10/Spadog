@@ -131,3 +131,34 @@ align-items: center
     max-width: 600px;
     padding-top: 70px;
 }
+.footer-text{
+    color: white;
+    margin-right: 150px;
+}
+.services-title{
+display: flex;
+justify-content: center;
+}
+.services-text{
+    display: flex;
+    justify-content: center;
+    width: 1346px;
+    margin-left: 150px;
+}
+.services-images{
+    display: flex;
+    max-width: 1620px;
+}
+.services-img{
+    width: 390px;
+    margin-left: 20px;
+}
+.li-text
+{
+    margin-bottom: 206px;
+}
+.sevices{
+    display: flex;
+    justify-content: center;
+}
+.ul li{}
