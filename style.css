@@ -52,10 +52,12 @@ body {
     text-transform: capitalize;
     color: #000;
 }
-.text-about-us{
+
+.text-about-us {
     max-width: 800px;
 }
-.about-us{
+
+.about-us {
     display: flex;
 }
 
@@ -98,67 +100,94 @@ li {
     display: flex;
     justify-content: space-between;
 }
-.img-section3{
+
+.img-section3 {
     margin-left: 150px;
     width: 930px;
 
 }
-.img-section-3{
+
+.img-section-3 {
     width: 490px;
     margin-bottom: 60px;
-    
+
 
 }
-.wrapper{
+
+.wrapper {
     display: flex;
-align-items: center
+    justify-content: end;
+    margin-top: 60px;
 }
 
-.title-section2{
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 932px;
+    text-align: center;
+    margin-left: 50 px;
+    text-align: justify;
+}
+.list-item{
+    margin-left: 50px;
+}
+.dog-list {
+    display: flex;
+}
+
+.title-section2 {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
     margin-right: 67%;
     width: 322px;
 }
-.text{
+
+.text {
     margin-bottom: 60px;
 }
-.text-1{
+
+.text-1 {
     margin-bottom: 15px;
 }
-.text-A{
+
+.text-A {
     max-width: 600px;
     padding-top: 70px;
 }
-.footer-text{
+
+.footer-text {
     color: white;
     margin-right: 150px;
 }
-.services-title{
-display: flex;
-justify-content: center;
+
+.services-title {
+    display: flex;
+    justify-content: center;
 }
-.services-text{
+
+.services-text {
     display: flex;
     justify-content: center;
     width: 1346px;
     margin-left: 150px;
 }
-.services-images{
+
+.services-images {
     display: flex;
     max-width: 1620px;
 }
-.services-img{
+
+.services-img {
     width: 390px;
     margin-left: 20px;
 }
-.li-text
-{
+
+.li-text {
     margin-bottom: 206px;
 }
-.sevices{
+
+.sevices {
     display: flex;
     justify-content: center;
 }
-.ul li{}
