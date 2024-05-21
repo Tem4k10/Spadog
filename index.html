@@ -20,25 +20,31 @@
 
 <body>
     <header>
-        <ul class="header-list">
-            <li class="header-list header-item"><a class="header-list" href="#">HOME</a> </li>
-            <li class="header-list header-item"><a class="header-list" href="#">FEATURES</a> </li>
-            <li class="header-list header-item"><a class="header-list" href="#">SERVICES</a> </li>
-            <li class="header-list header-item"><a class="header-list" href="#">PORTFOLIO</a> </li>
-            <li class="header-list header-item"><a class="header-list" href="#">PAGES</a> </li>
-        </ul>
+        <div class="container">
+            <ul class="header-list">
+                <li class="header-list header-item"><a class="header-list" href="#">HOME</a> </li>
+                <li class="header-list header-item"><a class="header-list" href="#">FEATURES</a> </li>
+                <li class="header-list header-item"><a class="header-list" href="#">SERVICES</a> </li>
+                <li class="header-list header-item"><a class="header-list" href="#">PORTFOLIO</a> </li>
+                <li class="header-list header-item"><a class="header-list" href="#">PAGES</a> </li>
+            </ul>
+        </div>
+
     </header>
+
     <main class="main">
+
         <section class=" section hero-section">
-            <div class="hero-text">
-                <h1 class="title hero-title">Make your dogs
-                    <span class="hero-span">Look their best</span>
-                </h1>
+            <div class="container">
+                <div class="hero-text">
+                    <h1 class="title hero-title">Make your dogs
+                        <span class="hero-span">Look their best</span>
+                    </h1>
 
-                <a class="a-button" href="#">FREE CONSULTATION</a>
-            </div>
+                    <a class="a-button" href="#">FREE CONSULTATION</a>
+                </div>
 
-            <img class="hero-img " src="./images/hero-img.png" alt="hero-img">
+                <img class="hero-img " src="./images/hero-img.png" alt="hero-img">
         </section>
         <section class="about-us hero-section">
             <img src="./images/section-2.png" alt="image">
@@ -61,20 +67,20 @@
                 <a class="button" href="#">LEARN MORE</a>
 
             </div>
+            </div>
+
 
 
         </section>
         <section>
-            <div class="wrapper">
+            <div class="container">
                 <div class="text-wrapper">
                     <div class="dog-list">
 
-                        <div class="king-item">
-                            <div class="list-item list-item-space">
+                        <ul class="king-item">
+                            <li class="list-item list-item-space">
                                 <img class="icons" src="./images/star1.png" alt="trophy">
-
-                                <div class="">
-
+                                <div>
                                     <h2 class="text-item">
                                         Qualified Employees
                                     </h2>
@@ -84,12 +90,15 @@
                                 </div>
 
 
-                            </div>
-                            <div class="list-item">
+                            </li>
+
+
+
+
+                            <li class="list-item">
                                 <img class="icons" src="./images/scissors1.png" alt="trophy">
 
-                                <div class="">
-
+                                <div>
                                     <h2 class="text-item">
                                         100% Guaranteed
                                     </h2>
@@ -99,12 +108,12 @@
                                 </div>
 
 
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
 
-                        <div class="king-item">
+                        <ul class="king-item">
 
-                            <div class="list-item list-item-space">
+                            <li class="list-item list-item-space">
                                 <img class="icons" src="./images/heart1.png" alt="trophy">
 
                                 <div class="">
@@ -113,11 +122,14 @@
                                         Free Consultations
                                     </h2>
 
-                                    <p>Our team consists of more than 20 qualified and experienced accountants, marketers, and managers.</p>
+                                    <p>Our team consists of more than 20 qualified and experienced accountants,
+                                        marketers,
+                                        and
+                                        managers.</p>
                                 </div>
 
-                            </div>
-                            <div class="list-item">
+                            </li>
+                            <li class="list-item">
                                 <img class="icons" src="./images/trophy1.png" alt="trophy">
 
                                 <div class="">
@@ -129,20 +141,13 @@
                                     <p>All results that you get from us are 100% guaranteed to bring you to a whole new
                                         level of
                                         profitability and financial success.</p>
-                                </div>
+                            </li>
 
-                            </div>
-
-                        </div>
-
+                        </ul>
+                        <img class="img-section3" src="./images/section-3images.png" alt="section3-images">
                     </div>
 
                 </div>
-
-
-
-
-                <img class="img-section3" src="./images/section-3images.png" alt="section3-images">
             </div>
 
         </section>
@@ -181,18 +186,17 @@
 
             </ul>
             <div class="services">
-               <a class="sevices" href="">VIEW ALL SERVICES</a> 
+                <a class="sevices" href="">VIEW ALL SERVICES</a>
             </div>
 
 
         </section>
 
     </main>
-    <footer class="footer">
-        <div>
-            <img src="./images/footer-logo.png" alt="">
-        </div>
-   <a class="footer-text" href="">© 2023 All Rights Reserved. Privacy Policy</a>
+    <footer class="footer-container">
+        <img class="footer-img" src="./images/footer-logo.png" alt="">
+        <a class="footer-text" href="">© 2023 All Rights Reserved. Privacy Policy</a>
+
     </footer>
 </body>
 
