@@ -117,7 +117,8 @@ li {
 }
 .king-item{
   display: flex;
-    flex-direction: column;
+  flex-wrap: wrap;
+align-content: center;
 }
 
 .footer-container {
@@ -129,16 +130,6 @@ li {
     margin-top: 70px;
     height: 100px;
 }
-
-
-
-
-
-
-
-
-
-
 
 .list-item {
     margin-left: 50px;
